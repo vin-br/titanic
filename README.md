@@ -1,4 +1,8 @@
-## Contexte du projet
+# Projet Titanic
+
+## Description du projet
+
+### Contexte
 
 Le client dispose de données hétérogènes sur les passagers du titanic et leur survie et souhaite prevenir au mieux les risques pour ses futures croisières transatlantiques. Il a donc besoin d'un algorithme pour qualifier et analyser ces données.
 
@@ -12,7 +16,7 @@ Le client dispose de données hétérogènes sur les passagers du titanic et leu
 * Travail individuel
 * Le code doit respecter au moins les standards PEP8 (sauf exceptions telles que la longueur des lignes qui peut aller jusqu’à 88 au lieu de 70)
 
-## Modalités pédagogiques
+### Modalités pédagogiques
 
 Ce travail sera réalisé en 8 étapes :
 
@@ -48,7 +52,7 @@ Ce travail sera réalisé en 8 étapes :
 
 **Étape 8** : Appliquer les concepts de cross validation et de pipeline à l'algorithme et réévaluer sa performance
 
-## Critères de performance
+### Critères de performance
 
 * Performance brute de l'algorithme
 * Qualité du code (Commentaires, PEP8 etc.)
@@ -57,6 +61,21 @@ Ce travail sera réalisé en 8 étapes :
 
 Analyse du code source par le formateur
 
-## Livrables
+### Livrables
 
 Dépôt Gitlab "Prénom Nom - Titanic" avec README qui présente le fonctionnement du programme. 2 notebooks documentés et commentés : -> 1 pour les étapes 1 à 5 -> 1 pour les étapes 6 à 8
+
+## Détails techniques
+
+Installation nécessaire de :
+- Python 3.10
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+Codé via VS Code avec Pyenv.
+
+## Données utilisées
+
+Pour en savoir plus sur les données utilisées et sur le détail des colonnes, consulter le fichier "Dataset-description" présent dans le dossier Data du projet.
